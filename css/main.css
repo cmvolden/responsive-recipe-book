@@ -1,0 +1,61 @@
+h1 {
+  font-family: condor-compressed, sans-serif;
+  color: #245048;
+}
+
+.book-title {
+  color: #b6d1d3;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: acumin-pro-condensed, sans-serif;
+  color: #245048;
+}
+
+p {
+  font-family: kepler-std-semicondensed, serif;
+}
+
+header {
+  background-color: #245048;
+}
+
+nav {
+  border-top: .1em solid #b6d1d3;
+  border-bottom: .1em solid #b6d1d3;
+}
+
+nav a {
+  font-family: acumin-pro-condensed, sans-serif;
+  text-decoration: none;
+  color: #b6d1d3;
+}
+
+.active {
+  background-color: #fff;
+}
+
+.home-banner {
+  background-image: url("../images/tree.jpg");
+  background-size: cover;
+  min-height: 40em;
+  background-position: center center;
+}
+
+.banner {
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.btn {
+  background-color: rgba(36, 80, 72, .7);
+  border: none;
+  border-radius: 0px;
+  font-family: acumin-pro-condensed, sans-serif;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: rgba(36, 80, 72, .7);
+  color: #fff;
+}
