@@ -281,12 +281,6 @@ ul ol {
   width: 1.3em;
 }
 
-table {
-  margin-left: -.325rem;
-  margin-right: -.325rem;
-  width: calc(100% + .325rem + .325rem);
-}
-
 input,
 option,
 select {

@@ -49,6 +49,20 @@ a {
   background-position: center center;
 }
 
+.crinkle-banner {
+  background-image: url("../images/crinkle-banner.jpg");
+  background-size: cover;
+  min-height: 20em;
+  background-position: center center;
+}
+
+.linzer-banner {
+  background-image: url("../images/linzer-banner.jpg");
+  background-size: cover;
+  min-height: 20em;
+  background-position: center center;
+}
+
 .banner {
   background-color: rgba(255, 255, 255, .7);
 }
@@ -69,7 +83,7 @@ a {
 .card {
   border: .1em solid #245048;
   border-radius: 3px;
-  margin: 0.5em;
+  margin: .5em;
 }
 
 .square {
