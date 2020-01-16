@@ -122,3 +122,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.social {
+  max-width: 50px;
+}
