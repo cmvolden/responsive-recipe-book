@@ -10,13 +10,13 @@ h1, h2 {
   color: #b6d1d3;
 }
 
-/* h2 {
+h3 {
   font-family: acumin-pro-condensed, sans-serif;
   font-weight: 300;
-  color: #245048;
-} */
+  color: #6b293c;
+}
 
-h3 {
+h4 {
   font-family: acumin-pro-condensed, sans-serif;
   font-weight: 300;
   color: #6b293c;
@@ -49,6 +49,10 @@ a {
   background-color: #fff;
 }
 
+.active a {
+  color: #245048;
+}
+
 .home-banner {
   background-image: url("../images/tree.jpg");
   background-size: cover;
@@ -65,6 +69,20 @@ a {
 
 .linzer-banner {
   background-image: url("../images/linzer-banner.jpg");
+  background-size: cover;
+  min-height: 20em;
+  background-position: center center;
+}
+
+.peanutbutter-banner {
+  background-image: url("../images/peanutbutter-banner.jpg");
+  background-size: cover;
+  min-height: 20em;
+  background-position: center center;
+}
+
+.brandysnaps-banner {
+  background-image: url("../images/brandysnaps-banner.jpg");
   background-size: cover;
   min-height: 20em;
   background-position: center center;
@@ -90,7 +108,7 @@ a {
 .card {
   border: .1em solid #245048;
   border-radius: 3px;
-  margin: .5em;
+  margin: .75em;
 }
 
 .square {
@@ -100,4 +118,7 @@ a {
 
 footer {
   color: #b6d1d3;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

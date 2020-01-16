@@ -301,6 +301,10 @@ select {
   margin-bottom: 1.3rem;
 }
 
+.push-footer {
+  margin-bottom: 4rem;
+}
+
 .push-none,
 .push-0 {
   margin-bottom: 0;
