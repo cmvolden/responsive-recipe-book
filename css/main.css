@@ -1,6 +1,6 @@
 h1, h2 {
   font-family: acumin-pro-condensed, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: #245048;
 }
 
@@ -12,14 +12,22 @@ h1, h2 {
 
 h3 {
   font-family: acumin-pro-condensed, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: #6b293c;
 }
 
 h4 {
   font-family: acumin-pro-condensed, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: #6b293c;
+}
+
+.bottom-border {
+  position: relative;
+  background-image: linear-gradient(180deg, #b6d1d3, #b6d1d3);
+  background-repeat: no-repeat;
+  background-position: 5px bottom;
+  background-size: 100% 10px;
 }
 
 p {
@@ -46,7 +54,7 @@ a {
 }
 
 .active {
-  background-color: #fff;
+  background-color: #b6d1d3;
 }
 
 .active a {
@@ -89,24 +97,29 @@ a {
 }
 
 .banner {
-  background-color: rgba(255, 255, 255, .7);
+  background-color: rgba(255, 255, 255, .8);
 }
 
 .btn {
-  background-color: rgba(36, 80, 72, .7);
+  background-color: #6b293c;
+  color: #fff;
   border: none;
   border-radius: 3px;
   font-family: acumin-pro-condensed, sans-serif;
-  color: #fff;
 }
 
 .btn:hover {
-  background-color: rgba(36, 80, 72, .7);
-  color: #fff;
+  background-color: #245048;
 }
 
 .card {
   border: .1em solid #245048;
+  border-radius: 3px;
+  margin: .75em;
+}
+
+.featured {
+  border: .1em solid #b6d1d3;
   border-radius: 3px;
   margin: .75em;
 }
@@ -117,14 +130,25 @@ a {
 }
 
 footer {
-  font-family: acumin-pro-condensed, sans-serif;
-  font-weight: 300;
   color: #b6d1d3;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
+footer p {
+  font-family: acumin-pro-condensed, sans-serif;
+  font-weight: 500;
+}
+
 .social {
   max-width: 50px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .social {
+    max-width: 70px;
+  }
+
 }
